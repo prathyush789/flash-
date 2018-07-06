@@ -7,6 +7,7 @@ public class MapEntryExample {
 	int key = entry.getKey();
 	Book b = entry.getValue();
 	System.out.println(key + "Details");
+	System.out.println("Printing Key details");
 	
 
 }
