@@ -31,9 +31,10 @@ for(Map.Entry<Integer,Book> entry: map.entrySet()) {
 	int key=entry.getKey();
 	Book b=entry.getValue();
     	System.out.println(key+" Info");
-    	System.out.println(b.id+" "+b.name+" "+b.author+" "+b.publisher+");
+    	System.out.println(b.id+" "+b.name+" "+b.author+" "+b.publisher+"");
     	
     }
+}
 }
     
     
